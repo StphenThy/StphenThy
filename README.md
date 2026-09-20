@@ -147,7 +147,7 @@
   <a href="https://www.facebook.com/pipoy.stephen">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
-  <a href="https://instagram.com/YOUR_INSTAGRAM">
+  <a href="https://www.instagram.com/thy.stephen/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
