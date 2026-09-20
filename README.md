@@ -14,13 +14,6 @@
   </a>
 </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=StphenThy&style=for-the-badge&color=39d353&label=PROFILE+VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/StphenThy?style=for-the-badge&logo=github&color=238636&labelColor=0d1117" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/StphenThy?style=for-the-badge&logo=github&color=39d353&labelColor=0d1117" alt="Stars" />
-</div>
-
-<br/>
 
 <!-- ═══════════════════════════════════════════════════════════════
      About me
