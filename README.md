@@ -62,15 +62,3 @@
 <br>
 
 ---
-
-<h3 align="center">What I Work On</h3>
-
-<p align="center">
-  <b>Web Development</b> &nbsp;&middot;&nbsp; responsive interfaces and REST APIs with React, Next.js and Node.js<br>
-  <b>Mobile Development</b> &nbsp;&middot;&nbsp; cross-platform apps with Flutter and React Native<br>
-  <b>Data and AI</b> &nbsp;&middot;&nbsp; Python for analysis and the fundamentals of machine learning
-</p>
-
-<br>
-
----
