@@ -19,34 +19,13 @@
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td valign="top" width="58%">
-      <h2>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="32" alt="" valign="middle" />
-        &nbsp;About Me
-      </h2>
-      <p>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="22" alt="" valign="middle" />&nbsp;
-        IT student at <b>University of the Immaculate Conception</b>
-      </p>
-      <p>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Asia-Australia.png" width="22" alt="" valign="middle" />&nbsp;
-        Building <b>web apps</b> with JavaScript and TypeScript
-      </p>
-      <p>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="22" alt="" valign="middle" />&nbsp;
-        Exploring <b>mobile development</b> with Flutter and React Native
-      </p>
-      <p>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" alt="" valign="middle" />&nbsp;
-        Curious about <b>Python, data and AI</b>
-      </p>
-      <p>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="22" alt="" valign="middle" />&nbsp;
-        Currently learning full-stack development and ML basics
-      </p>
-      <p>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" width="22" alt="" valign="middle" />&nbsp;
-        I learn best by building things that break, then fixing them
-      </p>
+      <h2>About Me</h2>
+      <p>IT student at <b>University of the Immaculate Conception</b></p>
+      <p>Building <b>web apps</b> with JavaScript and TypeScript</p>
+      <p>Exploring <b>mobile development</b> with Flutter and React Native</p>
+      <p>Curious about <b>Python, data and AI</b></p>
+      <p>Currently learning full-stack development and ML basics</p>
+      <p>I learn best by building things that break, then fixing them</p>
     </td>
     <td valign="middle" width="42%" align="center">
       <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="Coding" style="border-radius: 12px;" />
@@ -61,10 +40,7 @@
 <br/>
 
 <!-- ───────────────────────── Tech stack ───────────────────────── -->
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="32" alt="" valign="middle" />
-  &nbsp;Tech Stack
-</h2>
+<h2 align="center">Tech Stack</h2>
 
 <div align="center">
   <table border="0" cellpadding="12" cellspacing="0">
@@ -101,28 +77,51 @@
 
 <br/>
 
-<!-- ───────────────────────── Stats ───────────────────────── -->
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="32" alt="" valign="middle" />
-  &nbsp;GitHub Stats
-</h2>
+<!-- ───────────────────────── Focus ───────────────────────── -->
+<h2 align="center">What I Work On</h2>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=StphenThy&theme=github_dark" alt="Profile details" width="100%" />
+  <table border="0" cellpadding="14" cellspacing="0" width="100%">
+    <tr valign="top">
+      <td width="33%" align="center">
+        <h3>Web Development</h3>
+        <p>Responsive interfaces and REST APIs built with React, Next.js and Node.js, backed by SQL and NoSQL databases.</p>
+      </td>
+      <td width="33%" align="center">
+        <h3>Mobile Development</h3>
+        <p>Cross-platform applications with Flutter and React Native, from UI prototypes to Firebase-connected releases.</p>
+      </td>
+      <td width="33%" align="center">
+        <h3>Data and AI</h3>
+        <p>Python for data analysis and the fundamentals of machine learning with scikit-learn, PyTorch and TensorFlow.</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<div align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=StphenThy&theme=github_dark" alt="Stats" />
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=StphenThy&theme=github_dark&utcOffset=8" alt="Productive time" />
-</div>
+<br/>
+
+<h2 align="center">Currently</h2>
 
 <div align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=StphenThy&theme=github_dark" alt="Repos per language" />
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=StphenThy&theme=github_dark" alt="Most commit language" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=StphenThy&theme=dark&hide_border=true&background=0d1117&ring=39d353&fire=39d353&currStreakLabel=39d353&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&border_radius=12" alt="Streak" />
+  <table border="0" cellpadding="10" cellspacing="0">
+    <tr>
+      <td><b>Studying</b></td>
+      <td>BS Information Technology &mdash; University of the Immaculate Conception</td>
+    </tr>
+    <tr>
+      <td><b>Learning</b></td>
+      <td>Full-stack development and machine learning fundamentals</td>
+    </tr>
+    <tr>
+      <td><b>Building</b></td>
+      <td>Academic and personal projects across web and mobile</td>
+    </tr>
+    <tr>
+      <td><b>Open to</b></td>
+      <td>Internships, student collaborations and open-source contributions</td>
+    </tr>
+  </table>
 </div>
 
 <div align="center">
@@ -132,10 +131,7 @@
 <br/>
 
 <!-- ───────────────────────── Connect ───────────────────────── -->
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="32" alt="" valign="middle" />
-  &nbsp;Let's Connect
-</h2>
+<h2 align="center">Let's Connect</h2>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/stephen-tohoy-310654366">
