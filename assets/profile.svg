@@ -16,6 +16,8 @@
       .slidein { opacity: 0; animation: slidein 0.45s ease-out forwards; }
       @keyframes pop { from { opacity: 0; transform: scale(0.6); } to { opacity: 1; transform: scale(1); } }
       .swatch { opacity: 0; transform-origin: center; animation: pop 0.35s ease-out forwards; }
+      @keyframes breathe { 0%, 100% { transform: scale(1); opacity: 0.88; } 50% { transform: scale(1.028); opacity: 1; } }
+      .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 4.5s ease-in-out 1.9s infinite; }
       @keyframes clip0 { 0% { width: 0px; animation-timing-function: steps(10,jump-end); } 10% { width: 90px; animation-timing-function: steps(1,jump-end); } 23.333% { width: 90px; animation-timing-function: steps(10,jump-end); } 30% { width: 0px; animation-timing-function: steps(1,jump-end); } 100% { width: 0px; } }
       @keyframes cur0 { 0% { opacity: 1; x: 88px; animation-timing-function: steps(10,jump-end); } 10% { opacity: 1; x: 178px; animation-timing-function: steps(1,jump-end); } 23.333% { opacity: 1; x: 178px; animation-timing-function: steps(10,jump-end); } 30% { opacity: 1; x: 88px; animation-timing-function: steps(1,jump-end); } 33.333% { opacity: 0; x: 88px; } 100% { opacity: 0; x: 88px; } }
       .clipRect0 { animation: clip0 12s infinite; }
@@ -42,36 +44,38 @@
   <text x="470" y="22" text-anchor="middle" class="titletext">StphenThy@github: ~</text>
   <line x1="0" y1="34" x2="940" y2="34" stroke="#21262d" stroke-width="1" />
 
-  <text x="34" y="120" class="art fadein" style="animation-delay:0s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                                        </text>
-  <text x="34" y="135" class="art fadein" style="animation-delay:0.045s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                        ::++++:::.                      </text>
-  <text x="34" y="150" class="art fadein" style="animation-delay:0.09s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    :+############++:.                  </text>
-  <text x="34" y="165" class="art fadein" style="animation-delay:0.135s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  :##################+:                 </text>
-  <text x="34" y="180" class="art fadein" style="animation-delay:0.18s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 +####################+:                </text>
-  <text x="34" y="195" class="art fadein" style="animation-delay:0.225s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +#####++++:::.:::::+####+               </text>
-  <text x="34" y="210" class="art fadein" style="animation-delay:0.27s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +####++::::........:+###+               </text>
-  <text x="34" y="225" class="art fadein" style="animation-delay:0.315s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +###+++::..........:+###+               </text>
-  <text x="34" y="240" class="art fadein" style="animation-delay:0.36s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +##+++++++:....:+::::+##:               </text>
-  <text x="34" y="255" class="art fadein" style="animation-delay:0.405s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 ++#++++++++++++++:+++++                </text>
-  <text x="34" y="270" class="art fadein" style="animation-delay:0.45s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               .++++++:::+++:+::::::::+.:.              </text>
-  <text x="34" y="285" class="art fadein" style="animation-delay:0.495s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +#+++::.:++:..:....::.:...              </text>
-  <text x="34" y="300" class="art fadein" style="animation-delay:0.54s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +++++::::+++::.::........               </text>
-  <text x="34" y="315" class="art fadein" style="animation-delay:0.585s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 ::+++::::+::........:..                </text>
-  <text x="34" y="330" class="art fadein" style="animation-delay:0.63s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                   :+++:++++:::::.....                  </text>
-  <text x="34" y="345" class="art fadein" style="animation-delay:0.675s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    +++::+::::.....:.                   </text>
-  <text x="34" y="360" class="art fadein" style="animation-delay:0.72s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    :++++:::.....:::                    </text>
-  <text x="34" y="375" class="art fadein" style="animation-delay:0.765s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    :++++++::::::::.                    </text>
-  <text x="34" y="390" class="art fadein" style="animation-delay:0.81s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  :+:++++++++++:::..:                   </text>
-  <text x="34" y="405" class="art fadein" style="animation-delay:0.855s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               ::+#+::+++++++:::..  .#+:                </text>
-  <text x="34" y="420" class="art fadein" style="animation-delay:0.9s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          ::++######::..::+::::.    :####++::           </text>
-  <text x="34" y="435" class="art fadein" style="animation-delay:0.945s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    :::++###########:+++:...:...:++::#########++:       </text>
-  <text x="34" y="450" class="art fadein" style="animation-delay:0.99s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">:++#################++#####+++#####++##############++::.</text>
-  <text x="34" y="465" class="art fadein" style="animation-delay:1.035s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">###########################++#######+##+#+#############+</text>
-  <text x="34" y="480" class="art fadein" style="animation-delay:1.08s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">######################+++:.  .:++##+++++++++############</text>
-  <text x="34" y="495" class="art fadein" style="animation-delay:1.125s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################.            .+++++++++############</text>
-  <text x="34" y="510" class="art fadein" style="animation-delay:1.17s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################:             +++++++++############</text>
-  <text x="34" y="525" class="art fadein" style="animation-delay:1.215s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################+            .++++++++#############</text>
-  <text x="34" y="540" class="art fadein" style="animation-delay:1.26s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################+            ++++++++##############</text>
-  <text x="34" y="555" class="art fadein" style="animation-delay:1.305s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################+:          .++++++++##############</text>
+  <g class="breathe">
+    <text x="34" y="120" class="art fadein" style="animation-delay:0s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                                        </text>
+    <text x="34" y="135" class="art fadein" style="animation-delay:0.045s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                        ::++++:::.                      </text>
+    <text x="34" y="150" class="art fadein" style="animation-delay:0.09s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    :+############++:.                  </text>
+    <text x="34" y="165" class="art fadein" style="animation-delay:0.135s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  :##################+:                 </text>
+    <text x="34" y="180" class="art fadein" style="animation-delay:0.18s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 +####################+:                </text>
+    <text x="34" y="195" class="art fadein" style="animation-delay:0.225s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +#####++++:::.:::::+####+               </text>
+    <text x="34" y="210" class="art fadein" style="animation-delay:0.27s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +####++::::........:+###+               </text>
+    <text x="34" y="225" class="art fadein" style="animation-delay:0.315s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +###+++::..........:+###+               </text>
+    <text x="34" y="240" class="art fadein" style="animation-delay:0.36s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +##+++++++:....:+::::+##:               </text>
+    <text x="34" y="255" class="art fadein" style="animation-delay:0.405s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 ++#++++++++++++++:+++++                </text>
+    <text x="34" y="270" class="art fadein" style="animation-delay:0.45s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               .++++++:::+++:+::::::::+.:.              </text>
+    <text x="34" y="285" class="art fadein" style="animation-delay:0.495s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +#+++::.:++:..:....::.:...              </text>
+    <text x="34" y="300" class="art fadein" style="animation-delay:0.54s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                +++++::::+++::.::........               </text>
+    <text x="34" y="315" class="art fadein" style="animation-delay:0.585s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                 ::+++::::+::........:..                </text>
+    <text x="34" y="330" class="art fadein" style="animation-delay:0.63s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                   :+++:++++:::::.....                  </text>
+    <text x="34" y="345" class="art fadein" style="animation-delay:0.675s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    +++::+::::.....:.                   </text>
+    <text x="34" y="360" class="art fadein" style="animation-delay:0.72s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    :++++:::.....:::                    </text>
+    <text x="34" y="375" class="art fadein" style="animation-delay:0.765s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    :++++++::::::::.                    </text>
+    <text x="34" y="390" class="art fadein" style="animation-delay:0.81s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                  :+:++++++++++:::..:                   </text>
+    <text x="34" y="405" class="art fadein" style="animation-delay:0.855s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               ::+#+::+++++++:::..  .#+:                </text>
+    <text x="34" y="420" class="art fadein" style="animation-delay:0.9s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">          ::++######::..::+::::.    :####++::           </text>
+    <text x="34" y="435" class="art fadein" style="animation-delay:0.945s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    :::++###########:+++:...:...:++::#########++:       </text>
+    <text x="34" y="450" class="art fadein" style="animation-delay:0.99s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">:++#################++#####+++#####++##############++::.</text>
+    <text x="34" y="465" class="art fadein" style="animation-delay:1.035s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">###########################++#######+##+#+#############+</text>
+    <text x="34" y="480" class="art fadein" style="animation-delay:1.08s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">######################+++:.  .:++##+++++++++############</text>
+    <text x="34" y="495" class="art fadein" style="animation-delay:1.125s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################.            .+++++++++############</text>
+    <text x="34" y="510" class="art fadein" style="animation-delay:1.17s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################:             +++++++++############</text>
+    <text x="34" y="525" class="art fadein" style="animation-delay:1.215s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################+            .++++++++#############</text>
+    <text x="34" y="540" class="art fadein" style="animation-delay:1.26s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################+            ++++++++##############</text>
+    <text x="34" y="555" class="art fadein" style="animation-delay:1.305s" textLength="420" lengthAdjust="spacingAndGlyphs" xml:space="preserve">#####################+:          .++++++++##############</text>
+  </g>
 
   <text x="500" y="94" class="header">StphenThy@github</text>
   <line x1="500" y1="104" x2="900" y2="104" class="rule" />
