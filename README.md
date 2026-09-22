@@ -40,6 +40,29 @@
 
 ---
 
+<h3 align="center">Contribution Activity</h3>
+
+<div align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/StphenThy/StphenThy/output/pacman-contribution-graph-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/StphenThy/StphenThy/output/pacman-contribution-graph.svg"
+    />
+    <img
+      alt="pacman contribution graph"
+      src="https://raw.githubusercontent.com/StphenThy/StphenThy/output/pacman-contribution-graph-dark.svg"
+    />
+  </picture>
+</div>
+
+<br>
+
+---
+
 <h3 align="center">What I Work On</h3>
 
 <p align="center">
