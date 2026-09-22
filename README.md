@@ -33,19 +33,7 @@
 <h3 align="center">Tech Stack &amp; Tools</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,dart,java,html,css&theme=dark" alt="Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,django,flask&theme=dark" alt="Frameworks"/>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,pytorch,tensorflow,sklearn,mysql,postgres,mongodb,firebase&theme=dark" alt="Mobile, data and databases"/>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,androidstudio,postman,linux,vercel&theme=dark" alt="Tools"/>
+  <img src="https://raw.githubusercontent.com/StphenThy/StphenThy/refs/heads/main/assets/stack.svg" alt="tech stack and tools" />
 </p>
 
 <br>
